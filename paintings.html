@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tom Sloan | Artist</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -18,126 +18,638 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
-    
-      <!-- Main menu -->
-      <div class="container-fluid bg-body-tertiary">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container">
-            <a
-              class="navbar-brand d-flex justify-content-center align-items-center"
-              href="index.html"
-              aria-label="Go to home page"
-            >
-              <img
-                src="assets/img/sloan-logo.png"
-                alt="artist's logo"
-                width="50"
-                height="50"
-                class="d-inline-block align-text-top"
-              />
-              <h1 class="uppercase">Tom Sloan</h1>
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    aria-current="page"
-                    href="index.html"
-                    aria-label="Go to home page"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    href="paintings.html"
-                    aria-label="Go to page with paintings"
-                    >Paintings</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    href="contact.html"
-                    aria-label="Go to page with contact form"
-                    >Contact</a
-                  >
-                </li>
-              </ul>
+  </head>
+  <body>
+    <!-- Main menu -->
+    <div class="container-fluid bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a
+            class="navbar-brand d-flex justify-content-center align-items-center"
+            href="index.html"
+            aria-label="Go to home page"
+          >
+            <img
+              src="assets/img/sloan-logo.png"
+              alt="artist's logo"
+              width="50"
+              height="50"
+              class="d-inline-block align-text-top"
+            />
+            <h1 class="uppercase">Tom Sloan</h1>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="index.html"
+                  aria-label="Go to home page"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  href="paintings.html"
+                  aria-label="Go to page with paintings"
+                  >Paintings</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="contact.html"
+                  aria-label="Go to page with contact form"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Gallery -->
+    <div class="container gallery">
+      <h2 class="text-center">Paintings</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <img
+              src="assets/img/paintings/vertical/v-1-chocolare-bar.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Chocolate bars"
+            />
+          </a>
+          <div
+            class="modal mogal-gallery"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <div class="modal-body p-0">
+                  <img
+                    src="assets/img/paintings/vertical/v-1-chocolare-bar.jpg"
+                    class="w-100 shadow-1-strong rounded"
+                    alt="Chocolate bars"
+                  />
+                </div>
+              </div>
             </div>
           </div>
-        </nav>
-      </div>
 
-       <!-- Footer -->
-    <footer class="text-white bg-secondary">
-        <div class="container">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-sm-6 d-flex align-items-center">
-                <h4>Tom Sloan &copy; 2024</h4>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa2">
+            <img
+              src="assets/img/paintings/horizontal/h-1-tenby-1.webp"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Picture - Tenby"
+            />
+          </a>
+          <div
+            class="modal mogal-gallery modal-lg"
+            id="exampleModa2"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <div class="modal-body p-0">
+                  <img
+                    src="assets/img/paintings/horizontal/h-1-tenby-1.webp"
+                    class="w-100 shadow-1-strong rounded"
+                    alt="Picture - Tenby"
+                  />
+                </div>
               </div>
-              <div class="col-sm-6">
-                <ul
-                  class="navbar-nav d-flex flex-row justify-content-end align-items-center"
-                >
-                  <li>
-                    <a
-                      href="https://www.facebook.com/105536290829742"
-                      target="_blank"
-                      aria-label="Go to Tom Sloan's facebook page (opens in new tab)"
-                      ><i class="fa-brands fa-facebook text-white"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.instagram.com/official.sloan.art"
-                      target="_blank"
-                      aria-label="Go to Tom Sloan's instagram page (opens in new tab)"
-                      ><i class="fa-brands fa-instagram text-white"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/in/tom-sloan-31219b226"
-                      target="_blank"
-                      aria-label="Go to Tom Sloan's linkedin page (opens in new tab)"
-                      ><i class="fa-brands fa-linkedin text-white"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.twitter.com/tomsloanartist"
-                      target="_blank"
-                      aria-label="Go to Tom Sloan's twitter page (opens in new tab)"
-                      ><i class="fa-brands fa-twitter text-white"></i
-                    ></a>
-                  </li>
-                </ul>
+            </div>
+          </div>
+
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa3">
+            <img
+              src="assets/img/paintings/vertical/v-2-portrait-1.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Picture - Portrait"
+            />
+          </a>
+          <div
+            class="modal mogal-gallery"
+            id="exampleModa3"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <div class="modal-body p-0">
+                  <img
+                    src="assets/img/paintings/vertical/v-2-portrait-1.jpg"
+                    class="w-100 shadow-1-strong rounded"
+                    alt="Picture - Portrait"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa4">
+            <img
+              src="assets/img/paintings/horizontal/h-2-box-1.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Picture - 2 boxers"
+            />
+          </a>
+          <div
+            class="modal mogal-gallery modal-lg"
+            id="exampleModa4"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <div class="modal-body p-0">
+                  <img
+                    src="assets/img/paintings/horizontal/h-2-box-1.jpg"
+                    class="w-100 shadow-1-strong rounded"
+                    alt="Picture - 2 boxers"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa5">
+            <img
+              src="assets/img/paintings/vertical/v-3-lady.webp"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Picture - Woman"
+            />
+          </a>
+          <div
+            class="modal mogal-gallery"
+            id="exampleModa5"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <div class="modal-body p-0">
+                  <img
+                    src="assets/img/paintings/vertical/v-3-lady.webp"
+                    class="w-100 shadow-1-strong rounded"
+                    alt="Picture - Woman"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </footer>
 
-      <script
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa6">
+            <img
+              src="assets/img/paintings/horizontal/h-3-ukraine.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Picture - I stand with Ukraine"
+            />
+          </a>
+          <div
+            class="modal mogal-gallery modal-lg"
+            id="exampleModa6"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <div class="modal-body p-0">
+                  <img
+                    src="assets/img/paintings/horizontal/h-3-ukraine.jpg"
+                    class="w-100 shadow-1-strong rounded"
+                    alt="Picture - I stand with Ukraine"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa7">
+            <img
+              src="assets/img/paintings/vertical/v-4-tenby-1.webp"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Picture - Tenby"
+            />
+          </a>
+          <div
+            class="modal mogal-gallery"
+            id="exampleModa7"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <div class="modal-body p-0">
+                  <img
+                    src="assets/img/paintings/vertical/v-4-tenby-1.webp"
+                    class="w-100 shadow-1-strong rounded"
+                    alt="Picture - Tenby"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa8">
+            <img
+              src="assets/img/paintings/horizontal/h-4-box-2.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Picture - boxer"
+            />
+          </a>
+          <div
+            class="modal mogal-gallery modal-lg"
+            id="exampleModa8"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <div class="modal-body p-0">
+                  <img
+                    src="assets/img/paintings/horizontal/h-4-box-2.jpg"
+                    class="w-100 shadow-1-strong rounded"
+                    alt="Picture - boxers"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa9">
+            <img
+              src="assets/img/paintings/vertical/v-9-portrait-2.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Picture - Portrait"
+            />
+          </a>
+          <div
+            class="modal mogal-gallery"
+            id="exampleModa9"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <div class="modal-body p-0">
+                  <img
+                    src="assets/img/paintings/vertical/v-9-portrait-2.jpg"
+                    class="w-100 shadow-1-strong rounded"
+                    alt="Picture - Portrait"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa10">
+            <img
+              src="assets/img/paintings/horizontal/h-5-tenby-2.webp"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Picture - Tenby"
+            />
+          </a>
+          <div
+            class="modal mogal-gallery modal-lg"
+            id="exampleModa10"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <div class="modal-body p-0">
+                  <img
+                    src="assets/img/paintings/horizontal/h-5-tenby-2.webp"
+                    class="w-100 shadow-1-strong rounded"
+                    alt="Picture - Tenby"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa11">
+            <img
+              src="assets/img/paintings/vertical/v-6-football.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Picture - Football players"
+            />
+          </a>
+          <div
+            class="modal mogal-gallery"
+            id="exampleModa11"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <div class="modal-body p-0">
+                  <img
+                    src="assets/img/paintings/vertical/v-6-football.jpg"
+                    class="w-100 shadow-1-strong rounded"
+                    alt="Picture - Football players"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa15">
+            <img
+              src="assets/img/paintings/horizontal/h-6-box-2.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Picture - 3 boxers"
+            />
+          </a>
+          <div
+            class="modal mogal-gallery modal-lg"
+            id="exampleModa15"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <div class="modal-body p-0">
+                  <img
+                    src="assets/img/paintings/horizontal/h-6-box-2.jpg"
+                    class="w-100 shadow-1-strong rounded"
+                    alt="Picture - 3 boxers"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa12">
+            <img
+              src="assets/img/paintings/vertical/v-7-man.webp"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Picture - Man"
+            />
+          </a>
+          <div
+            class="modal mogal-gallery"
+            id="exampleModa12"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <div class="modal-body p-0">
+                  <img
+                    src="assets/img/paintings/vertical/v-7-man.webp"
+                    class="w-100 shadow-1-strong rounded"
+                    alt="Picture - Man"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa13">
+            <img
+              src="assets/img/paintings/horizontal/h-7-tenby-3.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Picture - Tenby"
+            />
+          </a>
+          <div
+            class="modal mogal-gallery modal-lg"
+            id="exampleModa13"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <div class="modal-body p-0">
+                  <img
+                    src="assets/img/paintings/horizontal/h-7-tenby-3.jpg"
+                    class="w-100 shadow-1-strong rounded"
+                    alt="Picture - Tenby"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModa14">
+            <img
+              src="assets/img/paintings/vertical/v-8-tenby-2.webp"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Picture - Tenby"
+            />
+          </a>
+          <div
+            class="modal mogal-gallery"
+            id="exampleModa14"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <div class="modal-body p-0">
+                  <img
+                    src="assets/img/paintings/vertical/v-8-tenby-2.webp"
+                    class="w-100 shadow-1-strong rounded"
+                    alt="Picture - Tenby"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-white bg-secondary">
+      <div class="container">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6 d-flex align-items-center">
+              <h4>Tom Sloan &copy; 2024</h4>
+            </div>
+            <div class="col-sm-6">
+              <ul
+                class="navbar-nav d-flex flex-row justify-content-end align-items-center"
+              >
+                <li>
+                  <a
+                    href="https://www.facebook.com/105536290829742"
+                    target="_blank"
+                    aria-label="Go to Tom Sloan's facebook page (opens in new tab)"
+                    ><i class="fa-brands fa-facebook text-white"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/official.sloan.art"
+                    target="_blank"
+                    aria-label="Go to Tom Sloan's instagram page (opens in new tab)"
+                    ><i class="fa-brands fa-instagram text-white"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/tom-sloan-31219b226"
+                    target="_blank"
+                    aria-label="Go to Tom Sloan's linkedin page (opens in new tab)"
+                    ><i class="fa-brands fa-linkedin text-white"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.twitter.com/tomsloanartist"
+                    target="_blank"
+                    aria-label="Go to Tom Sloan's twitter page (opens in new tab)"
+                    ><i class="fa-brands fa-twitter text-white"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-</body>
+  </body>
 </html>

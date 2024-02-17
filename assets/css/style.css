@@ -171,6 +171,22 @@ nav ul li {
   min-height: 100%;
 }
 
+/* ------------------Paintings */
+
+.gallery h2 {
+  padding: 40px 0;
+}
+
+.mogal-gallery button {
+  position: absolute;
+  padding: 10px;
+  z-index: 1;
+  background-color: white;
+  color: grey;
+  right: 0;
+  opacity: 1;
+}
+
 /* ------------------Footer */
 
 footer {
