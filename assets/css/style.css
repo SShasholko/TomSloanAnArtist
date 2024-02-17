@@ -271,3 +271,50 @@ footer ul li {
     transform: translateY(0%) rotateZ(0deg) rotateX(0deg);
   }
 }
+
+/* ------------------@media */
+
+@media screen and (576px <= width <= 1220px) {
+  .hero-artist {
+    left: -48%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .name-artist-footer {
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  footer ul li {
+    padding: 0 20px;
+  }
+
+  .tom-sl {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .artist-work-ex {
+    height: 50vh;
+  }
+
+  footer .d-flex {
+    justify-content: center !important;
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 992px) {
+  .form-box {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+@media (max-width: 601px) {
+  iframe {
+    width: 100%;
+  }
+}
