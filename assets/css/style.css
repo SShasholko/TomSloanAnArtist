@@ -39,3 +39,21 @@ nav ul li {
 .active {
   border-bottom: 2px solid red;
 }
+
+
+/* ------------------Footer */
+
+footer {
+  padding: 20px 0;
+}
+
+footer h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+footer ul li {
+  padding-left: 45px;
+  font-size: 22px;
+}
