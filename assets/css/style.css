@@ -21,7 +21,6 @@ h3 {
   text-transform: uppercase;
 }
 
-
 /* ------------------Main Menu */
 
 nav h1 {
@@ -40,6 +39,94 @@ nav ul li {
   border-bottom: 2px solid red;
 }
 
+/* ------------------First Screen */
+
+.hero {
+  min-height: 90vh;
+}
+
+.hero-introduction p {
+  font-size: 18px;
+  padding: 40px 40px;
+}
+
+.hero-introduction h1 {
+  font-size: 90px;
+  padding-top: 5rem;
+}
+
+.hero-introduction a {
+  text-decoration: none;
+  padding: 0.8rem 3rem;
+  border-radius: 10px;
+  margin-bottom: 4rem;
+  font-size: 18px;
+  background-color: red;
+}
+
+.hero-images {
+  position: relative;
+  z-index: 1;
+  padding: 0;
+  overflow: hidden;
+}
+
+.hero-artist {
+  position: absolute;
+  height: 100%;
+  width: auto;
+  bottom: 0;
+}
+
+.bg-pictures {
+  position: relative;
+  z-index: -1;
+  height: 80vh;
+  object-fit: cover;
+  animation: entrance 2s ease, bg-zooming 5s ease alternate 5s;
+}
+
+.green-circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  bottom: 50px;
+  left: 100px;
+  background-color: green;
+  box-shadow: 0 0 40px 50px green;
+  z-index: -1;
+  animation: entrance 2s ease,
+    circle-shake 2.5s infinite ease alternate-reverse 2s;
+}
+
+.red-circle {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  bottom: 150px;
+  left: 300px;
+  background-color: red;
+  box-shadow: 0 0 40px 50px red;
+  z-index: -1;
+  animation: entrance 2s ease,
+    circle-shake 3.5s infinite ease alternate-reverse 2s;
+}
+
+.yellow-circle {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  bottom: 320px;
+  left: 70px;
+  background-color: yellow;
+  box-shadow: 0 0 40px 50px yellow;
+  z-index: -1;
+  animation: entrance 2s ease,
+    circle-shake 3s infinite ease alternate-reverse 2s;
+}
 
 /* ------------------Footer */
 
@@ -56,4 +143,46 @@ footer h4 {
 footer ul li {
   padding-left: 45px;
   font-size: 22px;
+}
+
+/* ------------------Animations */
+
+@keyframes opening {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bg-zooming {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes circle-shake {
+  0% {
+    transform: translatex(-30%);
+  }
+
+  100% {
+    transform: translatex(30%);
+  }
+}
+
+@keyframes entrance {
+  from {
+    transform: translateY(10%) rotateZ(-10deg) rotateX(-90deg);
+  }
+  to {
+    transform: translateY(0%) rotateZ(0deg) rotateX(0deg);
+  }
 }

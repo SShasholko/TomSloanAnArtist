@@ -1,148 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tom Sloan | Artist</title>
     <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-    crossorigin="anonymous"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
-<body>
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Main menu -->
+    <div class="container-fluid bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a
+            class="navbar-brand d-flex justify-content-center align-items-center"
+            href="index.html"
+            aria-label="Go to home page"
+          >
+            <img
+              src="assets/img/sloan-logo.png"
+              alt="artist's logo"
+              width="50"
+              height="50"
+              class="d-inline-block align-text-top"
+            />
+            <h1 class="uppercase">Tom Sloan</h1>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html"
+                  aria-label="Go to home page"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="paintings.html"
+                  aria-label="Go to page with paintings"
+                  >Paintings</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="contact.html"
+                  aria-label="Go to page with contact form"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
 
-    
-     <!-- Main menu -->
-     <div class="container-fluid bg-body-tertiary">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container">
+    <!-- First screen -->
+    <section class="hero text-center">
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="col-sm-7 hero-introduction d-flex flex-column justify-content-center align-items-center"
+          >
+            <h1>Tom Sloan <br /></h1>
+            <h2>Artist</h2>
+            <p class="fst-italic fw-light">
+              <i class="fa-solid fa-quote-left"></i>
+              My inspiration comes from absolutely everything including but not
+              restricted to, people, music, popular-culture, landscapes,
+              history, townscapes, and industrial architecture but nothing is
+              off the radar...
+              <i class="fa-solid fa-quote-right"></i>
+            </p>
             <a
-              class="navbar-brand d-flex justify-content-center align-items-center"
-              href="index.html"
-              aria-label="Go to home page"
+              href="paintings.html"
+              class="text-white"
+              aria-label="Go to page with paintings"
+              >Paintings</a
             >
-              <img
-                src="assets/img/sloan-logo.png"
-                alt="artist's logo"
-                width="50"
-                height="50"
-                class="d-inline-block align-text-top"
-              />
-              <h1 class="uppercase">Tom Sloan</h1>
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+          </div>
+          <div class="col-sm-5 hero-images">
+            <img
+              class="hero-artist"
+              src="assets/img/photo-artist.png"
+              alt="picture of Tom Sloan"
+            />
+            <img
+              src="assets/img/first-screen-image.png"
+              alt="background image"
+              class="bg-pictures"
+            />
+            <div class="green-circle"></div>
+            <div class="red-circle"></div>
+            <div class="yellow-circle"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white bg-secondary">
+      <div class="container">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6 d-flex align-items-center name-artist-footer">
+              <h4>Tom Sloan &copy; 2024</h4>
+            </div>
+            <div class="col-sm-6">
+              <ul
+                class="navbar-nav d-flex flex-row justify-content-end align-items-center"
+              >
+                <li>
                   <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="index.html"
-                    aria-label="Go to home page"
-                    >Home</a
-                  >
+                    href="https://www.facebook.com/105536290829742"
+                    target="_blank"
+                    aria-label="Go to Tom Sloan's facebook page (opens in new tab)"
+                    ><i class="fa-brands fa-facebook text-white"></i
+                  ></a>
                 </li>
-                <li class="nav-item">
+                <li>
                   <a
-                    class="nav-link"
-                    href="paintings.html"
-                    aria-label="Go to page with paintings"
-                    >Paintings</a
-                  >
+                    href="https://www.instagram.com/official.sloan.art"
+                    target="_blank"
+                    aria-label="Go to Tom Sloan's instagram page (opens in new tab)"
+                    ><i class="fa-brands fa-instagram text-white"></i
+                  ></a>
                 </li>
-                <li class="nav-item">
+                <li>
                   <a
-                    class="nav-link"
-                    href="contact.html"
-                    aria-label="Go to page with contact form"
-                    >Contact</a
-                  >
+                    href="https://www.linkedin.com/in/tom-sloan-31219b226"
+                    target="_blank"
+                    aria-label="Go to Tom Sloan's linkedin page (opens in new tab)"
+                    ><i class="fa-brands fa-linkedin text-white"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.twitter.com/tomsloanartist"
+                    target="_blank"
+                    aria-label="Go to Tom Sloan's twitter page (opens in new tab)"
+                    ><i class="fa-brands fa-twitter text-white"></i
+                  ></a>
                 </li>
               </ul>
             </div>
           </div>
-        </nav>
-      </div>
-
-
-
-
-
-       <!-- Footer -->
-    <footer class="text-white bg-secondary">
-        <div class="container">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-sm-6 d-flex align-items-center name-artist-footer">
-                <h4>Tom Sloan &copy; 2024</h4>
-              </div>
-              <div class="col-sm-6">
-                <ul
-                  class="navbar-nav d-flex flex-row justify-content-end align-items-center"
-                >
-                  <li>
-                    <a
-                      href="https://www.facebook.com/105536290829742"
-                      target="_blank"
-                      aria-label="Go to Tom Sloan's facebook page (opens in new tab)"
-                      ><i class="fa-brands fa-facebook text-white"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.instagram.com/official.sloan.art"
-                      target="_blank"
-                      aria-label="Go to Tom Sloan's instagram page (opens in new tab)"
-                      ><i class="fa-brands fa-instagram text-white"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/in/tom-sloan-31219b226"
-                      target="_blank"
-                      aria-label="Go to Tom Sloan's linkedin page (opens in new tab)"
-                      ><i class="fa-brands fa-linkedin text-white"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.twitter.com/tomsloanartist"
-                      target="_blank"
-                      aria-label="Go to Tom Sloan's twitter page (opens in new tab)"
-                      ><i class="fa-brands fa-twitter text-white"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
-      </footer>
+      </div>
+    </footer>
 
-      <script
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
-    ></script>  
-</body>
+    ></script>
+  </body>
 </html>
