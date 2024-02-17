@@ -91,6 +91,47 @@
       </nav>
     </div>
 
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="onload"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-first-screen">
+        <div class="modal-content uppercase">
+          <div class="modal-header">
+            <div class="top-modal-dialog">
+              <h5 class="modal-title" id="exampleModalLabel">Tom Sloan</h5>
+              <button type="button" class="btn" data-bs-dismiss="modal">
+                X
+              </button>
+            </div>
+            <div><p>Colours around us</p></div>
+          </div>
+          <div class="modal-body">
+            <div>
+              <p>art exhibitions</p>
+              <h5 class="pb-3">9 - 18 February 2024</h5>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://tenbymuseum.org.uk/"
+                class="btn btn-warning"
+                role="button"
+                aria-label="Info about Tom Sloan’s exhibition in Tenby museum"
+                >More info</a
+              >
+            </div>
+            <a href="https://tenbymuseum.org.uk/" target="_blank"
+              ><img src="assets/img/tenby-museum.jpg" alt="Tenby museum"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- First screen -->
     <section class="hero text-center">
       <div class="container-fluid">
@@ -386,6 +427,20 @@
         </div>
       </div>
     </footer>
+
+    <!-- Script for Modal -->
+    <!-- https://stackoverflow.com/questions/69534538/bootstrap-5-modal-open-on-page-load -->
+    <script type="text/javascript">
+      window.onload = () => {
+        $("#onload").modal("show");
+      };
+    </script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
