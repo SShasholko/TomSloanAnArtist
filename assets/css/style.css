@@ -36,7 +36,7 @@ nav ul li {
 }
 
 .active {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #f2100a;
 }
 
 /* ------------------Modal */
@@ -86,7 +86,7 @@ nav ul li {
   border-radius: 10px;
   margin-bottom: 4rem;
   font-size: 18px;
-  background-color: red;
+  background-color: #f2100a;
 }
 
 .hero-images {
@@ -118,8 +118,8 @@ nav ul li {
   border-radius: 50%;
   bottom: 50px;
   left: 100px;
-  background-color: green;
-  box-shadow: 0 0 40px 50px green;
+  background-color: #1f8606;
+  box-shadow: 0 0 40px 50px #1f8606;
   z-index: -1;
   animation: entrance 2s ease,
     circle-shake 2.5s infinite ease alternate-reverse 2s;
@@ -132,8 +132,8 @@ nav ul li {
   border-radius: 50%;
   bottom: 150px;
   left: 300px;
-  background-color: red;
-  box-shadow: 0 0 40px 50px red;
+  background-color: #f2100a;
+  box-shadow: 0 0 40px 50px #f2100a;
   z-index: -1;
   animation: entrance 2s ease,
     circle-shake 3.5s infinite ease alternate-reverse 2s;
@@ -146,8 +146,8 @@ nav ul li {
   border-radius: 50%;
   bottom: 320px;
   left: 70px;
-  background-color: yellow;
-  box-shadow: 0 0 40px 50px yellow;
+  background-color:#f1de0e;
+  box-shadow: 0 0 40px 50px #f1de0e;
   z-index: -1;
   animation: entrance 2s ease,
     circle-shake 3s infinite ease alternate-reverse 2s;
