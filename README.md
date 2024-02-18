@@ -40,3 +40,18 @@ Welcome to the site of Tom Sloan, a contemporary artist based in the picturesque
 - **Footer**: Grey color is used for the footer to provide a subtle contrast with the white background while maintaining visual consistency.
 ### Images:
 - **All images** are sourced from the artist's main website and social media channels, ensuring authenticity and consistency with the artist's brand: [Tom Sloan's site](https://sloanart.co.uk/), [Sloan Art Facebook page](https://www.facebook.com/tomsloanartist/)
+
+## Wireframes
+Wireframes for the website were created using [Milanote](https://milanote.com/), a collaborative online tool for visual planning. The wireframes serve as blueprints for the layout and structure of the website, providing a visual representation of each page's design and functionality.
+
+[Look at site's Skatch online ](https://app.milanote.com/1RAXbO1GwkR38a?p=bN3hzNhx6WC)
+
+The wireframes include sketches for various key pages: Homepage, Paintings, Contact Page. 
+![Sketch](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/canvas.png)
+
+Sketches for both mobile and desktop versions ensure that the website's design is responsive and optimized for different screen sizes and devices.
+
+Each wireframe outlines the placement of elements such as navigation menus, artwork thumbnails, text content, and interactive features, helping to visualize the user interface and user experience.
+
+While this wireframe provide a general framework for the website's design, they are subject to iteration and refinement during the development process to ensure alignment with the project's goals and requirements.
+
