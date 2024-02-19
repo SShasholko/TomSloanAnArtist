@@ -55,3 +55,29 @@ Each wireframe outlines the placement of elements such as navigation menus, artw
 
 While this wireframe provide a general framework for the website's design, they are subject to iteration and refinement during the development process to ensure alignment with the project's goals and requirements.
 
+## Features
+The artist's website offers a range of features designed to provide visitors with an engaging and informative experience. From learning about the artist and their latest activities to exploring their artwork collection and contacting them directly, the website aims to cater to the needs and interests of art enthusiasts and potential patrons. Below are some key features included in the website:
+
+### Home Page
+![First screen](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/first+screen.png)
+- **About the Artist**: Provides information about the artist, including his background, artistic style, and influences.
+![About the artist](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/about+artist.png)
+- **Artist in Media**: Displays the artist's recent posts or publications from social media platforms, offering visitors a glimpse into their ongoing activities and updates.
+![Media](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/artist+in+media.png)
+- **Current Exhibition Pop-up**: A pop-up window showcasing details about the artist's current exhibition, including dates and location.
+![Pop up](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/pop+up.png)
+
+### Paintings Page
+- **Artwork Gallery**: Showcases the artist's paintings, allowing visitors to browse through a collection of artworks with high-quality images.
+![Gallary](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/paintings.jpg)
+![Zoom](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/zoom.png)
+
+### Contact Page
+- **Contact Form**: Provides a user-friendly contact/feedback form where visitors can leave comments, inquiries, or feedback for the artist, fostering engagement and communication.
+![Contact form](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/contact+form.png)
+- **Interactive Map**: Displays a map with the artist's location or studio address, helping visitors to locate and connect with the artist in person if desired.
+![Map](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/map.png)
+
+### Footer
+In addition to providing comprehensive information about the artist and showcasing their artwork, the website includes convenient links to the artist's social media profiles in the footer. These links offer visitors the opportunity to further engage with the artist's work and stay updated on their latest creations, exhibitions, and behind-the-scenes glimpses. By seamlessly integrating social media connectivity into the website, visitors can easily connect with the artist on platforms such as Instagram, Facebook, or Twitter, fostering a deeper sense of connection and community around their artistic journey.
+![Footer](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/footer.png)
