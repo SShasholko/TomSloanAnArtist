@@ -108,5 +108,8 @@ The Painting Page offers visitors an immersive experience as they explore the ar
 ![Map](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/map.png)
 
 ### Footer
-In addition to providing comprehensive information about the artist and showcasing their artwork, the website includes convenient links to the artist's social media profiles in the footer. These links offer visitors the opportunity to further engage with the artist's work and stay updated on their latest creations, exhibitions, and behind-the-scenes glimpses. By seamlessly integrating social media connectivity into the website, visitors can easily connect with the artist on platforms such as Instagram, Facebook, or Twitter, fostering a deeper sense of connection and community around their artistic journey.
+  - Four social media icons are displayed, each providing a link to the artist's profiles on popular platforms;
+  - In the desktop version, the Footer exudes elegance with a clean and spacious layout, while in the mobile version, it is optimized for efficiency with a compact design;
+  - Additionally, hover effects are implemented on the icons, adding a touch of interactivity and visual flair.
 ![Footer](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/footer.png)
+![Footer](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/footer-mobile.png)
