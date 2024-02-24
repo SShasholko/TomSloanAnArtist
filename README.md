@@ -59,11 +59,16 @@ While this wireframe provide a general framework for the website's design, they 
 The artist's website offers a range of features designed to provide visitors with an engaging and informative experience. From learning about the artist and their latest activities to exploring their artwork collection and contacting them directly, the website aims to cater to the needs and interests of art enthusiasts and potential patrons. Below are some key features included in the website:
 
 ### Home Page
-- **First screen and navigation** 
 Upon entering the website, visitors are greeted by a captivating first screen that prominently features the artist, providing a captivating introduction to their persona and creative vision. This visually striking element sets the tone for the rest of the website, inviting visitors to delve deeper into the artist's world and explore their portfolio of work.
 
+- **Navigation** 
 Effortless and simpless navigation is seamlessly integrated throughout the website, ensuring a user-friendly experience for visitors as they navigate between different pages. Clear navigation elements enable users to easily access key areas such as artwork gallery and contact information.
-![First screen](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/first+screen.png)
+- The main menu of the website features a distinctive logo alongside the artist's name;
+- The menu provides easy access to essential sections of the website, including the Home, Paintings, and Contact pages;
+- In the desktop version, these links are prominently displayed. On the other hand, in the mobile version, the links are neatly tucked inside a collapsible menu button, optimizing space and ensuring a streamlined user experience on smaller screens. 
+![Nav-desktop](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/nav-desktop.png)
+![Nav-mobile](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/nav-mobile.png)
+
 - **About the Artist**: Provides information about the artist, including his background, artistic style, and influences.
 ![About the artist](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/about+artist.png)
 - **Artist in Media**: Displays the artist's recent posts or publications from social media platforms, offering visitors a glimpse into their ongoing activities and updates.
