@@ -197,6 +197,11 @@ nav ul li {
   min-height: 100%;
 }
 
+.card img{
+  object-fit: cover;
+  height: 300px;
+}
+
 /* ------------------Paintings */
 
 .gallery h2 {
