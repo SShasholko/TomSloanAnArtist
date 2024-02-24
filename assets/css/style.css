@@ -251,7 +251,7 @@ width: fit-content;
 /* ------------------Footer */
 
 footer {
-  padding: 20px 0;
+  padding-top: 20px;
   transition: transform 1s;
 }
 
@@ -266,7 +266,7 @@ footer ul li {
   font-size: 22px;
 }
 
-footer ul li a:hover {
+footer a i:hover {
   color:#f1de0e; 
   transform: scale(1.15);
 }
