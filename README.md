@@ -76,17 +76,20 @@ The First Screen of the website captivates visitors with a dynamic and immersive
 ![First screen](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/first+screen.png)
 
 - **About the Artist**: The About the Artist block provides visitors with insight into the artist's background and creative process.
-  - In the first part, visitors are greeted with one of a artist's artwork.
+  - In the first part, visitors are greeted with one of a artist's artwork;
   - In the second part, visitors can delve deeper into the artist's story, learning about their background and artistic journey. A paragraph provides context on the artist's upbringing, influences, and experiences. Additionally, a separate paragraph highlights the artist's preferred medium and techniques, providing insight into their artistic process and approach to creation.
 ![About the artist](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/about+artist.png)
 
-
-
-
-
-- **Artist in Media**: Displays the artist's recent posts or publications from social media platforms, offering visitors a glimpse into their ongoing activities and updates.
+- **Artist in Media**: Displays the artist's recent posts or publications from on-line platforms, offering visitors a glimpse into their ongoing activities and updates.
+  - These cards are designed with consistency in mind, ensuring that each occupies the same size and layout for a cohesive presentation;
+  - Within each card, visitors will find a short description of the media coverage, accompanied by the date of publication or event;
+  - Additionally, a button provides a convenient link for visitors to explore further and read more about the artist's press coverage.
 ![Media](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/artist+in+media.png)
-- **Current Exhibition Pop-up**: A pop-up window showcasing details about the artist's current exhibition, including dates and location.
+
+- **Current Exhibition Pop-up**: Upon visiting the Home page, visitors are greeted with a pop-up providing details about the latest exhibition. 
+  - The pop-up prominently displays the name of the exhibition, along with the dates it is being held;
+  - Additionally, visitors will find a "More info" button, offering easy access to further details and insights about the exhibition;
+  - As a finishing touch, the pop-up includes the gallery logo, reinforcing the partnership and adding a sense of credibility to the event.
 ![Pop up](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/pop+up.png)
 
 ### Paintings Page
