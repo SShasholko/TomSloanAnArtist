@@ -203,9 +203,7 @@ nav ul li {
 }
 
 .card .btn{
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 18px;
+width: fit-content;
 }
 
 /* ------------------Paintings */
