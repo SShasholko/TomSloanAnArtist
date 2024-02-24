@@ -75,8 +75,15 @@ The First Screen of the website captivates visitors with a dynamic and immersive
   -  In the second part, visitors are greeted by a  photo of the artist against a backdrop of simple animation, adding visual intrigue and depth to the overall presentation.
 ![First screen](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/first+screen.png)
 
-- **About the Artist**: Provides information about the artist, including his background, artistic style, and influences.
+- **About the Artist**: The About the Artist block provides visitors with insight into the artist's background and creative process.
+  - In the first part, visitors are greeted with one of a artist's artwork.
+  - In the second part, visitors can delve deeper into the artist's story, learning about their background and artistic journey. A paragraph provides context on the artist's upbringing, influences, and experiences. Additionally, a separate paragraph highlights the artist's preferred medium and techniques, providing insight into their artistic process and approach to creation.
 ![About the artist](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/about+artist.png)
+
+
+
+
+
 - **Artist in Media**: Displays the artist's recent posts or publications from social media platforms, offering visitors a glimpse into their ongoing activities and updates.
 ![Media](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/artist+in+media.png)
 - **Current Exhibition Pop-up**: A pop-up window showcasing details about the artist's current exhibition, including dates and location.
