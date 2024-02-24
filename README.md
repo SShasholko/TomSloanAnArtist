@@ -118,13 +118,13 @@ The Painting Page offers visitors an immersive experience as they explore the ar
 The website was built using a variety of technologies and tools to ensure a seamless user experience and robust functionality:
 - **HTML**: Used for structuring the content and layout of the web pages.
 - **CSS**: Employed for styling and enhancing the visual appearance of the website.
-- ![Bootstrap](https://getbootstrap.com/): Leveraged for responsive design and streamlined development with its grid system and pre-built components.
-- ![Milanote](https://milanote.com/): Utilized for visual planning and wireframing.
-- ![Google Fonts](https://fonts.google.com/): Integrated for access to a diverse selection of web fonts to enhance typography.
-- ![Google Maps](https://www.google.com/maps): Integrated to provide an interactive map on the Contact page for locating the artist's studio and contact address.
-- ![Font Awesome](https://fontawesome.com/): Utilized for scalable vector icons, enhancing the visual presentation of the website.
-- ![GitHub](https://github.com/): Used for version control and hosted the website.
+- [Bootstrap](https://getbootstrap.com/): Leveraged for responsive design and streamlined development with its grid system and pre-built components.
+- [Milanote](https://milanote.com/): Utilized for visual planning and wireframing.
+- [Google Fonts](https://fonts.google.com/): Integrated for access to a diverse selection of web fonts to enhance typography.
+- [Google Maps](https://www.google.com/maps): Integrated to provide an interactive map on the Contact page for locating the artist's studio and contact address.
+- [Font Awesome](https://fontawesome.com/): Utilized for scalable vector icons, enhancing the visual presentation of the website.
+- [GitHub](https://github.com/): Used for version control and hosted the website.
 - **Chrome DevTools**: Employed for debugging, testing, and optimizing the website's performance during development.
-- ![AWS (Amazon Web Services)](https://aws.amazon.com/): Storing images for Readme file
-- ![W3C Markup Validator](https://validator.w3.org/): Utilized to validate the HTML code and ensure compliance with web standards.
-- ![W3C CSS Validator](https://jigsaw.w3.org/css-validator/): Used to validate the CSS code and ensure adherence to best practices and standards.
+- [AWS (Amazon Web Services)](https://aws.amazon.com/): Storing images for Readme file
+- [W3C Markup Validator](https://validator.w3.org/): Utilized to validate the HTML code and ensure compliance with web standards.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): Used to validate the CSS code and ensure adherence to best practices and standards.
