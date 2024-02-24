@@ -93,10 +93,12 @@ The First Screen of the website captivates visitors with a dynamic and immersive
 ![Pop up](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/pop+up.png)
 
 ### Paintings Page
-- **Artwork Gallery**: Showcases the artist's paintings, allowing visitors to browse through a collection of artworks with high-quality images.
+The Painting Page offers visitors an immersive experience as they explore the artist's portfolio of artworks. 
+  - The page is adorned with generously-sized cards, each showcasing one of the artist's paintings in vivid detail;
+  - These cards are thoughtfully arranged, allowing each artwork to stand out individually while maintaining a cohesive layout;
+  - Visitors can easily browse through the collection, appreciating the intricate details and diverse themes represented in each painting.
 ![Gallary](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/paintings.png)
-
-On the Painting page, visitors can enjoy an immersive viewing experience with the ability to zoom in on artworks. This feature allows users to explore the finer details of each painting up close, enhancing their appreciation and understanding of the artist's technique and craftsmanship.
+  - On the Painting page, visitors also can enjoy an immersive viewing experience with the ability to zoom in on artworks. This feature allows users to explore the finer details of each painting up close, enhancing their appreciation and understanding of the artist's technique and craftsmanship.
 ![Zoom](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/zoom.png)
 
 ### Contact Page
