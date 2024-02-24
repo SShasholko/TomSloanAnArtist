@@ -63,11 +63,17 @@ Upon entering the website, visitors are greeted by a captivating first screen th
 
 - **Navigation** 
 Effortless and simpless navigation is seamlessly integrated throughout the website, ensuring a user-friendly experience for visitors as they navigate between different pages. Clear navigation elements enable users to easily access key areas such as artwork gallery and contact information.
-- The main menu of the website features a distinctive logo alongside the artist's name;
-- The menu provides easy access to essential sections of the website, including the Home, Paintings, and Contact pages;
-- In the desktop version, these links are prominently displayed. On the other hand, in the mobile version, the links are neatly tucked inside a collapsible menu button, optimizing space and ensuring a streamlined user experience on smaller screens. 
+  - The main menu of the website features a distinctive logo alongside the artist's name;
+  - The menu provides easy access to essential sections of the website, including the Home, Paintings, and Contact pages;
+  - In the desktop version, these links are prominently displayed. On the other hand, in the mobile version, the links are neatly tucked inside a collapsible menu button, optimizing space and ensuring a streamlined user experience on smaller screens. 
 ![Nav-desktop](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/nav-desktop.png)
 ![Nav-mobile](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/nav-mobile.png)
+
+- **First screen** 
+The First Screen of the website captivates visitors with a dynamic and immersive experience. 
+  - Divided into two distinct parts, the first part features the artist's name alongside an inspiring quote, creating a compelling introduction to the artist's persona and creative ethos. A prominent button invites visitors to explore the artist's portfolio on the Paintings page;
+  -  In the second part, visitors are greeted by a  photo of the artist against a backdrop of simple animation, adding visual intrigue and depth to the overall presentation.
+![First screen](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/first+screen.png)
 
 - **About the Artist**: Provides information about the artist, including his background, artistic style, and influences.
 ![About the artist](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/about+artist.png)
