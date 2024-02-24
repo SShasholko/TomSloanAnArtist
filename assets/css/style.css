@@ -199,7 +199,13 @@ nav ul li {
 
 .card img{
   object-fit: cover;
-  height: 300px;
+  height: 350px;
+}
+
+.card .btn{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 18px;
 }
 
 /* ------------------Paintings */
