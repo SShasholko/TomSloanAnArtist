@@ -252,6 +252,7 @@ width: fit-content;
 
 footer {
   padding: 20px 0;
+  transition: transform 1s;
 }
 
 footer h4 {
@@ -263,6 +264,11 @@ footer h4 {
 footer ul li {
   padding-left: 45px;
   font-size: 22px;
+}
+
+footer ul li a:hover {
+  color:#f1de0e; 
+  transform: scale(1.15);
 }
 
 /* ------------------Animations */
@@ -337,7 +343,7 @@ footer ul li {
 
   footer .d-flex {
     justify-content: center !important;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
 }
 
