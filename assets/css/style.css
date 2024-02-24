@@ -178,6 +178,7 @@ nav ul li {
 .about-me p {
   font-size: 18px;
   font-weight: 300;
+  text-align: justify;
 }
 
 /* ------------------Artist in Media */
