@@ -251,7 +251,7 @@ width: fit-content;
 /* ------------------Footer */
 
 footer {
-  padding-top: 20px;
+  padding: 20px 0;
   transition: transform 1s;
 }
 
@@ -266,13 +266,16 @@ footer ul li {
   font-size: 22px;
 }
 
-footer a i{
+footer a{
   color: white;
   text-decoration: none;
 }
 
-footer a i:hover {
+footer a:hover{
   color:#f1de0e; 
+}
+
+footer a i:hover {
   transform: scale(1.15);
 }
 
@@ -344,6 +347,9 @@ footer a i:hover {
 @media screen and (max-width: 768px) {
   .artist-work-ex {
     height: 50vh;
+  }
+  footer{
+    padding-bottom: 0;
   }
 
   footer .d-flex {
