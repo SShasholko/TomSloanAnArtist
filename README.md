@@ -128,3 +128,49 @@ The website was built using a variety of technologies and tools to ensure a seam
 - [AWS (Amazon Web Services)](https://aws.amazon.com/): Storing images for Readme file
 - [W3C Markup Validator](https://validator.w3.org/): Utilized to validate the HTML code and ensure compliance with web standards.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): Used to validate the CSS code and ensure adherence to best practices and standards.
+
+## Testing
+
+### Browser Compatibility
+Expected:
+- The website should display correctly and function seamlessly on popular browsers including Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, and Opera.
+Testing:
+- Visited the website using each browser.
+- Checked for any layout inconsistencies, rendering issues, or functional discrepancies.
+Results:
+- The website displayed correctly on all tested browsers.
+- No significant layout or functionality issues were observed.
+Fix:
+- No fixes required.
+
+### Responsive Design
+Expected:
+- The website should be responsive and adapt well to various devices such as desktops, laptops, tablets, and smartphones.
+Testing:
+- Accessed the website on different devices with varying screen sizes and resolutions.
+- Verified the layout, content, and functionality at different viewport sizes.
+Results:
+- The website responded effectively to different screen sizes, maintaining readability and usability across devices.
+- All elements were appropriately scaled and positioned, ensuring a consistent user experience.
+Fix:
+- No fixes required.
+
+### Functionality Testing
+Expected:
+- All features and functionalities of the website, including navigation, forms, interactive elements, and media playback, should work smoothly and without errors.
+Testing:
+- Interacted with each feature and functionality of the website systematically.
+- Submitted forms, clicked buttons and navigated between pages to ensure proper functioning.
+Results:
+- Most features and functionalities worked as expected.
+- However, a bug was discovered in the contact form submission process where form didn't work.
+Fix:
+- Investigated and identified the cause of the issue.
+- Implemented a fix to resolve the contact form submission error.
+
+### Accessibility Testing
+
+
+
+
+
