@@ -211,9 +211,9 @@ The website was built using a variety of technologies and tools to ensure a seam
 All content was taken from [Tom Sloan's site](https://sloanart.co.uk/), [Sloan Art Facebook page](https://www.facebook.com/tomsloanartist/)
 
 ### Development Team
-[Svitlana Shasholko]: Lead Developer 😊😉
+Svitlana Shasholko: Lead Developer 😊😉
 
 ## Acknowledgements
 - **My Son**: Thank you for your enthusiasm and patience. Love you!
-- **My Mentor**: Gratitude to [Marcel] for guiding me through the development process and offering invaluable advice and expertise.
+- **My Mentor**: Gratitude to Marcel for guiding me through the development process and offering invaluable advice and expertise.
 - **My Friends**: Heartfelt appreciation to my friends for dedicating their time to test the website and providing constructive feedback, helping to refine and improve the user experience.
