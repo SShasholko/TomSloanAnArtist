@@ -6,20 +6,49 @@ Welcome to the site of Tom Sloan, a contemporary artist based in the picturesque
 
 ![Mockup](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/mockup.png)
 
+## Table of Contents
+- [Project Goals](#project-goals)
+   * [Goals for Users](#goals-for-users)
+   * [Goals for Tom Sloan (the Artist)](#goals-for-tom-sloan-the-artist)
+   * [Goals for Developer](#goals-for-developer)
+- [Design Choices](#design-choices)
+   * [Fonts](#fonts)
+   * [Icons](#icons)
+   * [Colors:](#colors)
+   * [Images](#images)
+- [Wireframes](#wireframes)
+- [Features](#features)
+   * [Home Page](#home-page)
+   * [Paintings Page](#paintings-page)
+   * [Contact Page](#contact-page)
+   * [Footer](#footer)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+   * [Browser Compatibility](#browser-compatibility)
+   * [Responsive Design](#responsive-design)
+   * [Functionality Testing](#functionality-testing)
+   * [Accessibility Testing](#accessibility-testing)
+   * [Validation](#validation)
+   * [User Acceptance Testing](#user-acceptance-testing)
+- [Credits](#credits)
+   * [Content](#content)
+   * [Development Team](#development-team)
+- [Acknowledgements](#acknowledgements)
+
 ## Project Goals
 
-### Goals for Users:
+### Goals for Users
 - **Discovering Tom Sloan's Artwork**: Users should easily find and explore Tom Sloan's artwork, including paintings, or any other forms of artistic expression he produces.
 - **Learning About the Artist**: Users should have access to information about Tom Sloan's background, artistic philosophy, inspirations, and any upcoming events or exhibitions.
 - **Engagement and Interaction**: Users should have opportunities to engage with the artist's work, whether through  feedback forms, or social media links.
 - **Purchasing Artwork**: If applicable, users should be able to purchase Tom Sloan's artwork directly through the website, or at least have clear information on how to acquire his pieces.
 
-### Goals for Tom Sloan (the Artist):
+### Goals for Tom Sloan (the Artist)
 - **Showcasing Artistic Portfolio**: The website should effectively showcase Tom Sloan's portfolio to a wide audience, potentially leading to increased recognition and opportunities.
 - **Promoting Events and Exhibitions**: Tom may want the website to serve as a platform to promote his upcoming exhibitions, events, or workshops in the local community or beyond.
 - **Connecting with Collectors and Fans**: The site should facilitate connections with potential collectors, fans, or collaborators, allowing Tom to grow his network and audience.
 
-### Goals for Developer:
+### Goals for Developer
 - **Creating a User-Friendly Interface**: Developer should focus on designing a visually appealing and intuitive interface that enhances the user experience and encourages exploration of Tom Sloan's artwork.
 - **Implementing Responsive Design**: The website should be accessible across different devices and screen sizes, ensuring a seamless experience for users accessing it from desktops, tablets, or smartphones.
 - **Optimizing Performance**: Developer should optimize the website's performance to ensure fast loading times, smooth navigation.
@@ -27,10 +56,10 @@ Welcome to the site of Tom Sloan, a contemporary artist based in the picturesque
 - **Ensuring Accessibility Compliance**: Developer should prioritize accessibility standards such as WCAG (Web Content Accessibility Guidelines) to ensure that the website is usable by individuals with disabilities. This includes providing alternative text for images, ensuring keyboard navigation, using semantic HTML markup, and maintaining color contrast ratios.
 
 ## Design Choices
-### Fonts:
+### Fonts
 - **Titles**: Bebas Neue font is used for titles throughout the website, providing a bold and distinctive appearance. [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue?query=bebas)
 - **Content**: Roboto font is chosen for content, offering readability and clarity to ensure a pleasant reading experience. [Roboto](https://fonts.google.com/specimen/Roboto)
-### Icons:
+### Icons
 - **Icons** are sourced from [FontAwesome](https://fontawesome.com/), providing a wide range of high-quality and visually appealing icons to enhance the user interface.
 ### Colors:
 - **Text**: Black color is utilized for text, offering high contrast and readability against the white background.
@@ -38,7 +67,7 @@ Welcome to the site of Tom Sloan, a contemporary artist based in the picturesque
 ![Colors](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/colors.png)
 - **Background**: A white background is chosen to provide a clean and minimalist backdrop, allowing the artwork to stand out prominently.
 - **Footer**: Grey color is used for the footer to provide a subtle contrast with the white background while maintaining visual consistency.
-### Images:
+### Images
 - **All images** are sourced from the artist's main website and social media channels, ensuring authenticity and consistency with the artist's brand: [Tom Sloan's site](https://sloanart.co.uk/), [Sloan Art Facebook page](https://www.facebook.com/tomsloanartist/)
 
 ## Wireframes
@@ -184,7 +213,7 @@ The website was built using a variety of technologies and tools to ensure a seam
 ![Lighhouse - Paintings page](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/lighhouse-paintings.png)
 ![Lighhouse - Contact page](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/lighhouse-contact.png)
 
-### Validation:
+### Validation
 - Expected:
   - The website's HTML and CSS code should be valid and compliant with web standards.\
 - Testing:
@@ -194,7 +223,7 @@ The website was built using a variety of technologies and tools to ensure a seam
 - Fix:
   - No fixes required.
 
-### User Acceptance Testing:
+### User Acceptance Testing
 - Expected:
   - Real users should find the website easy to use, intuitive, and enjoyable, with no major usability issues.\
 - Testing:
