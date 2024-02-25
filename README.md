@@ -200,13 +200,13 @@ The website was built using a variety of technologies and tools to ensure a seam
 
 ### Accessibility Testing
 - Expected:
-  - The website should be accessible to users with disabilities.\
+  - The website should be accessible to users with disabilities.
 - Testing:
   - Used keyboard navigation to navigate through the website.
-  - Checked for proper labeling of elements, keyboard accessibility, and color contrast ratios.\
+  - Checked for proper labeling of elements, keyboard accessibility, and color contrast ratios.
 - Results:
   - The website demonstrated good accessibility overall, with properly labeled elements and keyboard navigation support.
-  - However, some color contrast issues were identified in certain sections of the website, potentially affecting users with visual impairments.\
+  - However, some color contrast issues were identified in certain sections of the website, potentially affecting users with visual impairments.
 - Fix:
   - Addressed the color contrast issues by adjusting the affected elements to ensure compliance with WCAG standards, improving accessibility for all users.
 ![Lighhouse - Home page](https://tom-sloan-artist.s3.eu-west-1.amazonaws.com/lighhouse-home.png)
@@ -215,23 +215,23 @@ The website was built using a variety of technologies and tools to ensure a seam
 
 ### Validation
 - Expected:
-  - The website's HTML and CSS code should be valid and compliant with web standards.\
+  - The website's HTML and CSS code should be valid and compliant with web standards.
 - Testing:
-  - Ran the website's HTML and CSS code through W3C Markup Validator and W3C CSS Validator.\
+  - Ran the website's HTML and CSS code through W3C Markup Validator and W3C CSS Validator.
 - Results:
-  - The HTML and Css code passed validation with no errors or warnings.\
+  - The HTML and Css code passed validation with no errors or warnings.
 - Fix:
   - No fixes required.
 
 ### User Acceptance Testing
 - Expected:
-  - Real users should find the website easy to use, intuitive, and enjoyable, with no major usability issues.\
+  - Real users should find the website easy to use, intuitive, and enjoyable, with no major usability issues.
 - Testing:
   - Invited a group of real users (my frieds) to navigate through the website and provide feedback on their experience.
-  - Gathered insights on usability, functionality, and overall satisfaction with the website.\
+  - Gathered insights on usability, functionality, and overall satisfaction with the website.
 - Results:
   - Users found the website visually appealing and easy to navigate.
-  - However, some users reported confusion with the navigation menu on mobile devices, suggesting improvements to enhance mobile usability.\
+  - However, some users reported confusion with the navigation menu on mobile devices, suggesting improvements to enhance mobile usability.
 - Fix:
   - Revised the navigation menu layout and functionality on mobile devices, making it more intuitive and user-friendly based on user feedback.
 
