@@ -134,15 +134,15 @@ The website was built using a variety of technologies and tools to ensure a seam
 
 ### Browser Compatibility
 Expected:
-- The website should display correctly and function seamlessly on popular browsers including Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, and Opera.\
+  - The website should display correctly and function seamlessly on popular browsers including Google Chrome, Mozilla Firefox, Safari, Microsoft Edge, and Opera.\
 Testing:
-- Visited the website using each browser.
-- Checked for any layout inconsistencies, rendering issues, or functional discrepancies.\
+  - Visited the website using each browser.
+  - Checked for any layout inconsistencies, rendering issues, or functional discrepancies.\
 Results:
-- The website displayed correctly on all tested browsers.
-- No significant layout or functionality issues were observed.\
+  - The website displayed correctly on all tested browsers.
+  - No significant layout or functionality issues were observed.\
 Fix:
-- No fixes required.
+  - No fixes required.
 
 ### Responsive Design
 Expected:
